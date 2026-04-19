@@ -50,6 +50,10 @@ Do not stop at "this finding contributes to theory" without saying how.
 - Use [anti-ai-prose-checklist.md](../../shared/references/anti-ai-prose-checklist.md) before finalizing.
 - Use [citation-discipline.md](../../shared/references/citation-discipline.md) to keep theoretical claims tied to the right sources.
 
+## Output Preference
+
+When the user asks for a discussion or theory paragraph, first identify the empirical pattern, the direction or condition that matters, and the conceptual move the paragraph should make. Return theory-facing prose by default unless the user explicitly asks for a rubric-based diagnosis or a separate conceptual outline.
+
 ## Final Check
 
 Before returning a draft, confirm that the paragraph tells the reader:

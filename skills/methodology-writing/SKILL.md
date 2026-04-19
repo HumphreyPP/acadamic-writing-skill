@@ -49,6 +49,10 @@ Avoid thin template sentences that only say a technique was used.
 - Use [citation-discipline.md](../../shared/references/citation-discipline.md) when the section includes method citations.
 - Use [anti-ai-prose-checklist.md](../../shared/references/anti-ai-prose-checklist.md) before finalizing.
 
+## Output Preference
+
+When the user asks directly for methods prose, first identify the design logic and reporting sequence silently, then draft the section. Return polished prose unless the user explicitly asks for an outline, checklist, or reporting template.
+
 ## Final Check
 
 Before returning a draft, confirm that the reader can answer:

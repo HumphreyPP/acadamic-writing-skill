@@ -45,6 +45,10 @@ Do not blur description and interpretation into one vague sentence.
 - Use [anti-ai-prose-checklist.md](../../shared/references/anti-ai-prose-checklist.md) to smooth the prose.
 - Use [citation-discipline.md](../../shared/references/citation-discipline.md) when the analysis paragraph also discusses prior studies.
 
+## Output Preference
+
+When writing from tables, models, coded outputs, or summary notes, first extract the result, direction, interpretation, and caveat silently. Return prose by default unless the user explicitly asks to also see a result map, bullet outline, or table-to-text conversion notes.
+
 ## Final Check
 
 Before returning a draft, confirm that the text makes clear:

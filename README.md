@@ -1,32 +1,39 @@
 # Academic Writing
 
-`academic-writing` is a focused repository for Codex skills that support research writing.
+`academic-writing` is a focused repository of Codex skills for academic and research writing.
 
-This repository is meant to hold reusable writing skills, shared guidance, and lightweight checklists for:
+The repository is designed for reusable writing workflows rather than project storage. Its current focus is four common research-writing tasks:
 
-- literature reviews
-- methodology sections
-- data analysis writing
+- literature review writing
+- methodology writing
+- data analysis and results writing
 - theory dialogue and conceptual contribution writing
 
-## Scope
+## What This Repository Is For
 
-Keep this repository narrow.
-
-Include:
+Use this repository to store:
 
 - skill folders that Codex can invoke directly
-- shared references used across multiple skills
-- short checklists or rubrics that improve writing consistency
+- shared references that multiple writing skills should reuse
+- lightweight rubrics and checklists that improve writing consistency
 
-Do not include:
+Do not use this repository to store:
 
 - raw paper PDFs
 - large datasets
-- project-specific manuscript drafts
-- temporary exports or unrelated research artifacts
+- manuscript drafts tied to one project
+- temporary exports, notebooks, or unrelated research files
 
-## Structure
+## Quick Start
+
+Invoke a skill directly in Codex with prompts such as:
+
+- `Use $literature-review-writing to draft a literature review paragraph on ...`
+- `Use $methodology-writing to revise the methods section for ...`
+- `Use $data-analysis-writing to turn these model outputs into a results narrative.`
+- `Use $theory-dialogue-writing to strengthen the conceptual contribution in ...`
+
+## Repository Structure
 
 ```text
 academic-writing/
@@ -43,22 +50,33 @@ academic-writing/
 
 ## Current Skills
 
-- `literature-review-writing`: Write evidence-led review prose with sentence-level citation discipline and explicit control over AI-sounding patterns.
-- `methodology-writing`: Explain design choices, operationalization, procedures, and validity logic without sliding into template language.
-- `data-analysis-writing`: Turn analytic results into precise prose that separates pattern description, directional findings, and interpretation.
-- `theory-dialogue-writing`: Write paragraphs that actively converse with theory instead of merely restating empirical results.
+### `literature-review-writing`
 
-## Usage
+Write evidence-led review prose with sentence-level citation discipline, lean parenthetical citations, and explicit control over AI-sounding phrasing.
 
-Invoke a skill directly in Codex with prompts such as:
+### `methodology-writing`
 
-- `Use $literature-review-writing to draft a review paragraph on ...`
-- `Use $methodology-writing to revise the methods section for ...`
-- `Use $data-analysis-writing to write the results narrative for ...`
-- `Use $theory-dialogue-writing to strengthen the conceptual contribution in ...`
+Explain research design, operationalization, procedure, and rigor in prose that is specific, defensible, and not template-heavy.
 
-## Maintenance Notes
+### `data-analysis-writing`
 
-- Keep shared norms in `shared/references/` when multiple skills need them.
-- Keep skill-specific operating rules inside each skill folder.
-- Prefer small, inspectable updates over large mixed commits.
+Translate outputs, tables, or coded patterns into results prose that separates observation, direction, and interpretation.
+
+### `theory-dialogue-writing`
+
+Write paragraphs that actively engage theory by clarifying what empirical evidence refines, constrains, differentiates, or extends.
+
+## Shared References
+
+The `shared/references/` folder holds cross-skill norms that should stay consistent across the repository.
+
+- `citation-discipline.md`: Align claims with citations and avoid citation stacking.
+- `anti-ai-prose-checklist.md`: Remove repetitive sentence rhythm and template-heavy wording.
+- `theory-dialogue-rubric.md`: Check whether a paragraph genuinely advances conceptual dialogue.
+
+## Maintenance Principles
+
+- Keep shared guidance in `shared/references/` when more than one skill needs it.
+- Keep task-specific operating rules inside the relevant skill folder.
+- Prefer revising an existing skill over creating overlapping near-duplicates.
+- Keep commits narrow so later adjustments stay easy to inspect and reuse.
