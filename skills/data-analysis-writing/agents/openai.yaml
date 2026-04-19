@@ -1,0 +1,7 @@
+interface:
+  display_name: "Data Analysis Writing"
+  short_description: "Precise results prose with controlled interpretation."
+  default_prompt: "Use $data-analysis-writing to turn analytic output into a results narrative with explicit direction and cautious interpretation."
+
+policy:
+  allow_implicit_invocation: true

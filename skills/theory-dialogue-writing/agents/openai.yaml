@@ -1,0 +1,7 @@
+interface:
+  display_name: "Theory Dialogue Writing"
+  short_description: "Conceptual writing that actively engages theory."
+  default_prompt: "Use $theory-dialogue-writing to revise a discussion paragraph so it speaks directly to theory rather than only restating findings."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Literature Review Writing"
+  short_description: "Evidence-led review writing with lean citations."
+  default_prompt: "Use $literature-review-writing to draft a literature review section with sentence-level citations and concrete directional findings."
+
+policy:
+  allow_implicit_invocation: true

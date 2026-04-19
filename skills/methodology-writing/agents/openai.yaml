@@ -1,0 +1,7 @@
+interface:
+  display_name: "Methodology Writing"
+  short_description: "Clear methods writing with defensible design logic."
+  default_prompt: "Use $methodology-writing to draft or revise a methods section with clear design rationale and concrete procedural detail."
+
+policy:
+  allow_implicit_invocation: true
